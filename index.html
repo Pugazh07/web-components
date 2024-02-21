@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script defer src="./UserCard.js"></script>
+  </head>
+  <style>
+    todo-item {
+      font-size: 30px;
+      color: green;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Todo</h1>
+    </header>
+    <user-card
+      name="John Doe"
+      avatar="https://randomuser.me/api/portraits/men/10.jpg"
+    >
+      <div slot="email">johndoe@gmail.com</div>
+      <div slot="phone">999-999-9999</div>
+    </user-card>
+    <user-card
+      name="Jane Doe"
+      avatar="https://randomuser.me/api/portraits/women/10.jpg"
+    >
+      <div slot="email">janedoe@gmail.com</div>
+      <div slot="phone">999-999-9990</div></user-card
+    >
+  </body>
+</html>
